@@ -133,7 +133,6 @@ def go_cinderella():
         # status update
         win_status_l.setText(pass_c.format('Loading <b>Cinderella</b>...'))
         
-        '''
         # open loader's executable as a process
         subprocess.Popen(
             # provide context
@@ -144,7 +143,6 @@ def go_cinderella():
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
         )
-        '''
     except Exception as e:
         # status update
         win_status_l.setText(fail_c.format('Failed to load.'))

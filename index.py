@@ -108,7 +108,7 @@ def go_cinderella():
         win_status_l.setText(idle_c.format('Downloading latest source...'))
 
         # fetch loader's executable
-        resp       = requests.get('https://github.com/kagehana/cinderella/raw/refs/heads/main/loader.exe', stream = True)
+        resp   = requests.get('https://github.com/kagehana/cinderella/raw/refs/heads/main/loader.exe', stream = True)
         
         # generate random string for executable's file name
         abc    = 'bcdfghjklmnpqrstvwxyz'

@@ -96,7 +96,7 @@ def go_cinderella():
                 # status update
                 win_status_l.setText(fail_c.format('No license available, enter one.'))
 
-                #return
+                return
         else:
             # set locally to whatever's stored
             license = txt

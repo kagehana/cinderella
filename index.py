@@ -1,6 +1,7 @@
 '''
 All relevant import statements.
 '''
+
 from PyQt6.QtWidgets import (
     QApplication,
     QWidget,

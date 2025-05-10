@@ -1,7 +1,6 @@
 '''
 All relevant import statements.
 '''
-
 from PyQt6.QtWidgets import (
     QApplication,
     QWidget,
@@ -29,7 +28,6 @@ import random
 '''
 Cinderella loader's PyQt6 application.
 '''
-
 app = QApplication([])
 
 
@@ -37,7 +35,6 @@ app = QApplication([])
 Cinderella loader's window. Contains all visual elements
 pertaining to the loader's functionality.
 '''
-
 # window object
 cin_window     = QMainWindow()
 

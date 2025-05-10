@@ -53,7 +53,7 @@ win_game_t_cb.setText('Hood-based Game')
 win_load_b.setText('Load Cinderella')
 win_status_l.setText('<b>Status:</b> ')
 
-# setup
+# gateway
 status = '<b>Status:</b>'
 fail_c = f'{status} <font color="#ff584d">{{}}</font>'
 pass_c = f'{status} <font color="#52ff60">{{}}</font>'
